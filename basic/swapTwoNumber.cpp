@@ -10,9 +10,7 @@ int main() {
     temp = b;
     b = a;
     a = temp;
-    cout<<a<<endl;
-    cout<<b<<endl;
-    
-
-
+    cout<<"After Swapping 1st number is "<<a<<endl;
+    cout<<"After swapping 2nd number is "<<b<<endl;
+    return 0;
 }
